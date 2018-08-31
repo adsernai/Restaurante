@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostresActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+         <ImageView
+             android:id="@+id/Star"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:contentDescription="@string/Star"
+             android:src="@android:drawable/btn_star_big_on" />
+
+        <TextView
+            android:id="@+id/Postres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Postres" />
+
+        <ImageView
+            android:id="@+id/BlackLine"
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:contentDescription="@string/BlackLine"
+            android:src="@android:color/black" />
+
+        <ListView
+            android:id="@+id/MenuListViewPostres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="#CCCCCC"
+            android:dividerHeight="1dp"
+            android:paddingEnd="2dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:paddingStart="2dp"></ListView>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

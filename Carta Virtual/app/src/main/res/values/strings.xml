@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CartaVirtual</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Star">Star</string>
+    <string name="BlackLine">BlackLine</string>
+    <string name="VerSede">VerSede</string>
+    <string name="ReservarMesa">ReservarMesa</string>
+    <string name="ConsultarMenu">ConsultarMenu</string>
+    <string name="CalificarServicio">CalificarServicio</string>
+    <string name="title_activity_consultar_menu">ConsultarMenuActivity</string>
+    <string name="Entradas">Entradas</string>
+    <string name="PlatosFuertes">PlatosFuertes</string>
+    <string name="Postres">Postres</string>
+    <string name="Bebidas">Bebidas</string>
+    <string name="Img">Img</string>
+    <string name="VerEntradas">VerEntradas</string>
+    <string name="VerPlatosFuertes">VerPlatosFuertes</string>
+    <string name="VerPostres">VerPostres</string>
+    <string name="VerBebidas">Verbebidas</string>
+    <string name="RestauranteColombiaU">RestauranteColombiaU</string>
+</resources>

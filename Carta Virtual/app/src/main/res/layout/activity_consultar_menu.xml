@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsultarMenuActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+             android:id="@+id/Star"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:contentDescription="@string/Star"
+             android:src="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/BlackLine"
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:contentDescription="@string/BlackLine"
+            android:src="@android:color/black" />
+        <Button
+            android:id="@+id/VerEntradas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerEntradas"
+            android:text="@string/VerEntradas"
+            tools:text="Ver Entrada" />
+
+        <Button
+            android:id="@+id/VerPlatosFuertes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerPlatosFuertes"
+            android:text="@string/VerPlatosFuertes"
+            tools:text="Ver Platos Fuertes" />
+
+        <Button
+            android:id="@+id/VerPostres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerPostres"
+            android:text="@string/VerPostres"
+            tools:text="Ver Postres" />
+        <Button
+            android:id="@+id/VerBebidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="VerBebidas"
+            android:text="@string/VerBebidas"
+            tools:text="Ver Bebidas" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+

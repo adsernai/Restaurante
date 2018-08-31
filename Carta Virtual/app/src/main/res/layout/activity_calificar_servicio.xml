@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalificarServicioActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/Star1"
+            style="?android:attr/starStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="0" />
+
+        <CheckBox
+            android:id="@+id/Star2"
+            style="?android:attr/starStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="1" />
+        <CheckBox
+            android:id="@+id/Star3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:tag="2"/>
+        <CheckBox
+            android:id="@+id/Star4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:tag="3"/>
+        <CheckBox
+            android:id="@+id/Star5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:tag="4"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
